@@ -1,0 +1,21 @@
+{
+    "CHAMPSIM_DIR": "ChampSim",
+    "CACTI_DIR": "cacti",
+    "TRACE_DIR": "/path/to/traces",
+    "TOP_TRACE_FOLDER": "/path/to/benchmarks",
+    "TOTAL_INSTRUCTIONS": 700000000,
+    "DB_FILE": "earlyperf.db",
+    "DATA_DIR": "data",
+    "OUTPUT_DIR": "output",
+    "MODELS_DIR": "models",
+    "TRACES_TO_RUN": 25,
+    "TRACES_OFFSET": 0,
+    "WALL_TIME": 10,
+    "MEM_SIZE_PER_JOB_MB": 4000,
+    "NUM_CONFIGS": 350,
+    "SIM_POINTS": 280,
+    "PREVIEW_SIM_POINTS": 10,
+    "SMA_WINDOW_SIZE": 5,
+    "SIMULATION_RUN": "experiment_name",
+    "ACCOUNT": "your_slurm_account_id"
+}

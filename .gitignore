@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+venv/
+.venv/
+
+# Output and Data
+batch/
+output/
+data/
+logs/
+aggregated_output/
+models/
+dram_models_full.json
+*.pkl
+*.pickle
+
+# Evaluation Outputs
+preview_out.json
+preview_out.log
+full_out.json
+full_out.log
+
+# Configs
+config.json
+scripts/slurm_template.txt
+ChampSim/configs/
+*.db
+*.sqlite
+
+# Other
+.vscode/
+.idea/
+.DS_Store
+release_models/
+release_data/
+artifacts/
+*.zip
+*.sha256

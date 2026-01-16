@@ -1,0 +1,18 @@
+{
+  "DDR4_8Gb_x16_3200": {
+    "DataRate": 3200,
+    "BankGroups": 2,
+    "Banks": 8,
+    "BankRows": 65536,
+    "BankColumns": 1024,
+    "ChannelWidth": 64,
+    "WQSize": 32,
+    "RQSize": 32,
+    "tCAS": 20,
+    "tRCD": 20,
+    "tRP": 20,
+    "tRAS": 52,
+    "RefreshPeriod": 64,
+    "RefreshesPerPeriod": 8192
+  }
+}

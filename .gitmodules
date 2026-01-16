@@ -1,0 +1,6 @@
+[submodule "ChampSim"]
+	path = ChampSim
+	url = https://github.com/AidenStickney/ChampSim.git
+[submodule "cacti"]
+	path = cacti
+	url = https://github.com/AidenStickney/Cacti.git

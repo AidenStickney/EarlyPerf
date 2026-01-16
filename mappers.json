@@ -1,0 +1,513 @@
+{
+	"mappers": {
+		"Frequency": {
+			"0": 1000,
+			"1": 1250,
+			"2": 1500,
+			"3": 1750,
+			"4": 2000,
+			"5": 2250,
+			"6": 2500,
+			"7": 2750,
+			"8": 3000,
+			"9": 3250,
+			"10": 3500,
+			"11": 3750,
+			"12": 4000,
+			"13": 4250,
+			"14": 4500,
+			"15": 4750,
+			"16": 5000,
+			"17": 5250,
+			"18": 5500
+		},
+		"iFetchBufferSize": {
+			"0": 8,
+			"1": 16,
+			"2": 32,
+			"3": 64,
+			"4": 128,
+			"5": 256
+		},
+		"DecodeBufferSize": {
+			"0": 8,
+			"1": 16,
+			"2": 32,
+			"3": 64,
+			"4": 128,
+			"5": 256
+		},
+		"DispatchBufferSize": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64,
+			"6": 128,
+			"7": 256
+		},
+		"RegisterFileSize": {
+			"0": 128,
+			"1": 256,
+			"2": 384,
+			"3": 512,
+			"4": 640,
+			"5": 768,
+			"6": 896,
+			"7": 1024
+		},
+		"ROBSize": {
+			"0": 16,
+			"1": 32,
+			"2": 48,
+			"3": 64,
+			"4": 80,
+			"5": 96,
+			"6": 112,
+			"7": 128,
+			"8": 144,
+			"9": 160,
+			"10": 176,
+			"11": 192,
+			"12": 208,
+			"13": 224,
+			"14": 240,
+			"15": 256,
+			"16": 320,
+			"17": 384,
+			"18": 448,
+			"19": 512,
+			"20": 576,
+			"21": 640,
+			"22": 768,
+			"23": 896,
+			"24": 1024
+		},
+		"LQSize": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64,
+			"6": 128,
+			"7": 256
+		},
+		"SQSize": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64,
+			"6": 128,
+			"7": 256
+		},
+		"FetchWidth": {
+			"0": 2,
+			"1": 3,
+			"2": 4,
+			"3": 5,
+			"4": 6,
+			"5": 7,
+			"6": 8,
+			"7": 9,
+			"8": 10,
+			"9": 11,
+			"10": 12
+		},
+		"DecodeWidth": {
+			"0": 2,
+			"1": 3,
+			"2": 4,
+			"3": 5,
+			"4": 6,
+			"5": 7,
+			"6": 8,
+			"7": 9,
+			"8": 10,
+			"9": 11,
+			"10": 12
+		},
+		"DispatchWidth": {
+			"0": 2,
+			"1": 3,
+			"2": 4,
+			"3": 5,
+			"4": 6,
+			"5": 7,
+			"6": 8,
+			"7": 9,
+			"8": 10,
+			"9": 11,
+			"10": 12
+		},
+		"ExecuteWidth": {
+			"0": 2,
+			"1": 3,
+			"2": 4,
+			"3": 5,
+			"4": 6,
+			"5": 7,
+			"6": 8,
+			"7": 9,
+			"8": 10,
+			"9": 11,
+			"10": 12
+		},
+		"LQWidth": {
+			"0": 2,
+			"1": 3,
+			"2": 4,
+			"3": 5,
+			"4": 6,
+			"5": 7,
+			"6": 8,
+			"7": 9,
+			"8": 10,
+			"9": 11,
+			"10": 12
+		},
+		"SQWidth": {
+			"0": 2,
+			"1": 3,
+			"2": 4,
+			"3": 5,
+			"4": 6,
+			"5": 7,
+			"6": 8,
+			"7": 9,
+			"8": 10,
+			"9": 11,
+			"10": 12
+		},
+		"RetireWidth": {
+			"0": 2,
+			"1": 3,
+			"2": 4,
+			"3": 5,
+			"4": 6,
+			"5": 7,
+			"6": 8,
+			"7": 9,
+			"8": 10,
+			"9": 11,
+			"10": 12
+		},
+		"MispredictPenalty": {
+			"0": 1,
+			"1": 2,
+			"2": 3,
+			"3": 4,
+			"4": 5
+		},
+		"SchedulerSize": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64,
+			"6": 128,
+			"7": 144,
+			"8": 160,
+			"9": 176,
+			"10": 192,
+			"11": 208,
+			"12": 256,
+			"13": 320,
+			"14": 384,
+			"15": 448,
+			"16": 512
+		},
+		"BranchPredictor": {
+			"0": "bimodal",
+			"1": "gshare",
+			"2": "hashed_perceptron",
+			"3": "perceptron",
+			"4": "tage-sc-l"
+		},
+		"DIBWindowSize": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64
+		},
+		"DIBSets": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64
+		},
+		"DIBWays": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16
+		},
+		"L1ISets": {
+			"0": 32,
+			"1": 64
+		},
+		"L1IWays": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32
+		},
+		"L1IRQSize": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64,
+			"6": 128
+		},
+		"L1IWQSize": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64,
+			"6": 128
+		},
+		"L1IPQSize": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64,
+			"6": 128
+		},
+		"L1IMSHRSize": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64,
+			"6": 128
+		},
+		"L1IPrefetcher": {
+			"0": "no",
+			"1": "next_line"
+		},
+		"L1DSets": {
+			"0": 32,
+			"1": 64
+		},
+		"L1DWays": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32
+		},
+		"L1DRQSize": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64,
+			"6": 128
+		},
+		"L1DWQSize": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64,
+			"6": 128
+		},
+		"L1DPQSize": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64,
+			"6": 128
+		},
+		"L1DMSHRSize": {
+			"0": 2,
+			"1": 4,
+			"2": 8,
+			"3": 16,
+			"4": 32,
+			"5": 64,
+			"6": 128
+		},
+		"L1DPrefetcher": {
+			"0": "ip_stride",
+			"1": "next_line",
+			"2": "no",
+			"3": "spp_dev",
+			"4": "va_ampm_lite"
+		},
+		"L2Sets": {
+			"0": 64,
+			"1": 128,
+			"2": 256,
+			"3": 512,
+			"4": 1024,
+			"5": 2048
+		},
+		"L2Ways": {
+			"0": 4,
+			"1": 8,
+			"2": 16,
+			"3": 32
+		},
+		"L2Prefetcher": {
+			"0": "no",
+			"1": "ip_stride",
+			"2": "next_line",
+			"3": "spp_dev",
+			"4": "va_ampm_lite"
+		},
+		"LLCSets": {
+			"0": 512,
+			"1": 1024,
+			"2": 2048,
+			"3": 4096,
+			"4": 8192
+		},
+		"LLCWays": {
+			"0": 8,
+			"1": 16,
+			"2": 32
+		},
+		"LLCPrefetcher": {
+			"0": "no",
+			"1": "ip_stride",
+			"2": "next_line",
+			"3": "spp_dev",
+			"4": "va_ampm_lite"
+		},
+		"BTBReturnStackMaxSize": {
+			"0": 48,
+			"1": 56,
+			"2": 64,
+			"3": 72,
+			"4": 80
+		},
+		"BTBReturnStackNumCallSizeTrackers": {
+			"0": 768,
+			"1": 896,
+			"2": 1024,
+			"3": 1152,
+			"4": 1280
+		},
+		"BTBIndirectPredictorSize": {
+			"0": 3072,
+			"1": 3584,
+			"2": 4096,
+			"3": 4608,
+			"4": 5120
+		},
+		"BTBDirectPredictorSets": {
+			"0": 512,
+			"1": 1024,
+			"2": 2048
+		},
+		"PhysicalMemoryChannels": {
+			"0": 1,
+			"1": 2,
+			"2": 4,
+			"3": 8
+		},
+		"PhysicalMemoryRanks": {
+			"0": 1,
+			"1": 2,
+			"2": 4
+		}
+	},
+	"json_mappings": {
+		"ooo_cpu": {
+			"Frequency": "frequency",
+			"iFetchBufferSize": "ifetch_buffer_size",
+			"DecodeBufferSize": "decode_buffer_size",
+			"DispatchBufferSize": "dispatch_buffer_size",
+			"RegisterFileSize": "register_file_size",
+			"ROBSize": "rob_size",
+			"LQSize": "lq_size",
+			"SQSize": "sq_size",
+			"FetchWidth": "fetch_width",
+			"DecodeWidth": "decode_width",
+			"DispatchWidth": "dispatch_width",
+			"ExecuteWidth": "execute_width",
+			"LQWidth": "lq_width",
+			"SQWidth": "sq_width",
+			"RetireWidth": "retire_width",
+			"MispredictPenalty": "mispredict_penalty",
+			"SchedulerSize": "scheduler_size",
+			"BranchPredictor": "branch_predictor"
+		},
+		"DIB": {
+			"DIBWindowSize": "window_size",
+			"DIBSets": "sets",
+			"DIBWays": "ways"
+		},
+		"L1I": {
+			"L1ISets": "sets",
+			"L1IWays": "ways",
+			"L1IRQSize": "rq_size",
+			"L1IWQSize": "wq_size",
+			"L1IPQSize": "pq_size",
+			"L1IMSHRSize": "mshr_size",
+			"L1ILatency": "latency",
+			"L1IPrefetcher": "prefetcher"
+		},
+		"L1D": {
+			"L1DSets": "sets",
+			"L1DWays": "ways",
+			"L1DRQSize": "rq_size",
+			"L1DWQSize": "wq_size",
+			"L1DPQSize": "pq_size",
+			"L1DMSHRSize": "mshr_size",
+			"L1DLatency": "latency",
+			"L1DPrefetcher": "prefetcher"
+		},
+		"L2C": {
+			"L2Sets": "sets",
+			"L2Ways": "ways",
+			"L2Latency": "latency",
+			"L2Prefetcher": "prefetcher"
+		},
+		"LLC": {
+			"LLCSets": "sets",
+			"LLCWays": "ways",
+			"LLCLatency": "latency",
+			"LLCPrefetcher": "prefetcher"
+		},
+		"physical_memory": {
+			"PhysicalMemoryDataRate": "data_rate",
+			"PhysicalMemoryChannels": "channels",
+			"PhysicalMemoryRanks": "ranks",
+			"PhysicalMemoryBankGroups": "bankgroups",
+			"PhysicalMemoryBanks": "banks",
+			"PhysicalMemoryBankRows": "bank_rows",
+			"PhysicalMemoryBankColumns": "bank_columns",
+			"PhysicalMemoryChannelWidth": "channel_width",
+			"PhysicalMemoryWQSize": "wq_size",
+			"PhysicalMemoryRQSize": "rq_size",
+			"PhysicalMemorytCAS": "tCAS",
+			"PhysicalMemorytRCD": "tRCD",
+			"PhysicalMemorytRP": "tRP",
+			"PhysicalMemorytRAS": "tRAS",
+			"PhysicalMemoryRefreshPeriod": "refresh_period",
+			"PhysicalMemoryRefreshesPerPeriod": "refreshes_per_period"
+		}
+	}
+}

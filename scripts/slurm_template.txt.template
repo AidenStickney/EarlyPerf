@@ -1,0 +1,28 @@
+#!/bin/bash
+#SBATCH --job-name=champsim_{trace}_{iter}
+#SBATCH --ntasks=1
+#SBATCH --time={dur}
+#SBATCH --account={account}
+#SBATCH --output={output_location}
+#SBATCH --mem={mem}MB
+
+# Add any necessary module loads here
+module load GCCcore CMake git
+
+cd {repo_path}
+
+start_time=$(date +%s)
+echo "Start Time: $(date +\"%Y-%m-%d %H:%M:%S\")"
+
+# Run ChampSim simulation
+{champsim_dir}/bin/{binary_name} --no-repeat-traces -e {estimated_instructions} -p {sim_points} -w 0 --simulation-instructions {sim_instructions} {trace_fp} --json {json_output}
+run_status=$?
+
+end_time=$(date +%s)
+echo "End Time: $(date +\"%Y-%m-%d %H:%M:%S\")"
+
+duration_secs=$((end_time - start_time))
+duration_mins=$(echo "scale=2; $duration_secs / 60" | bc)
+
+# Remove the batch script for cleanup
+rm {script_path}
